@@ -4,11 +4,17 @@
 
     <title>Forms Practice</title>
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
 
 <form>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid consequatur delectus, dolores,
+        excepturi, ipsa neque nihil non nostrum porro qui sed voluptatem voluptatibus? </p>
 
     <p>
         Username:
@@ -22,22 +28,22 @@
         What did you think of this trip? <br>
         <textarea name="comments" id="" cols="30" rows="5" placeholder="Enter your comment"></textarea>
     </p>
-    <p>
+    <p class="class1">
         Please select your favorite food:
     </p>
     <input type="radio" name="food" value="burger">Burger
     <input type="radio" name="food" value="kabab" checked>Kabab
     <input type="radio" name="food" value="salad" disabled>Salad
 
-    <p>Pick a date: <input type="date"></p>
+    <p class="class1">Pick a date: <input type="date"></p>
     <input type="datetime-local">
 
-    <p>Please upload your resume:</p>
-    <input type="file">
+    <p class="class1">Please upload your resume:</p>
+    <input type="file" class="class1">
 
     <p>Please select your favorite course(s)</p>
     <label for="java">
-    <input type="checkbox" name="course" value="java" id="java">Java
+        <input type="checkbox" name="course" value="java" id="java">Java
     </label>
 
     <input type="checkbox" name="course" value="ds">DS
@@ -54,8 +60,7 @@
 
     </select>
 
-    <input type="submit" value="Submit">
-
+    <input class="btn1 btnFont" type="submit" value="Submit" id="signup">
 
 
 </form>
